@@ -1,0 +1,27 @@
+div{
+    background-color: aliceblue;
+}
+
+button{
+    all: unset;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bg-green{
+    color: lightskyblue;
+    background-color: lightslategrey;
+}
+.bg-red
+{
+
+    color: yellow;
+    background-color: #282c34;
+}
+.bg-blue
+{
+    color: cornsilk;
+    background-color: dimgrey;
+}
