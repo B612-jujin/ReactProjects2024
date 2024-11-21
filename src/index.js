@@ -4,26 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from "./chp03/Library";
-import Clock from "./chp04/Clock";
-import CommentList from "./chp05/CommentList";
-import NotificationList from "./chp06/NotificationList";
-import Accommodate from "./chp07/Accommodate";
 
-import LoginControl from "./chp09/LoginControl";
-import Greeting from "./test/Greeting";
-import MailBox from "./chp09/MailBox";
-import LoginControl2 from "./chp09/LoginControl2";
-import LandingPage from "./chp09/LandingPage";
-import AppNumberList from "./chp10/AppNumberList";
-import StudentAttendance from "./chp10/StudentAttendance";
-import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
+import NameRequestForm from "./chp11/NameRequstForm";
+import SingUp from "./chp11/SingUp";
 
 // setInterval(()=>1000);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <AttendanceCard/>
+        <SingUp/>
     </React.StrictMode>
 );
 
