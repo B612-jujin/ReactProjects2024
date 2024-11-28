@@ -7,12 +7,16 @@ import reportWebVitals from './reportWebVitals';
 
 import NameRequestForm from "./chp11/NameRequstForm";
 import SingUp from "./chp11/SingUp";
+import Calculator from "./chp12/Calculator";
+import Calculator2 from "./chp12/Calculator2";
+import Calculator3 from "./chp12/Calculator3";
+import DistanceConverter from "./chp12/Test/DistanceConverter";
 
 // setInterval(()=>1000);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <SingUp/>
+        <DistanceConverter/>
     </React.StrictMode>
 );
 
